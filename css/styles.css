@@ -1,3 +1,5 @@
+/* Generic Style */
+
 /* HEADER | NAV */
 .nav-top .row .nav-left,
 .nav-top .row .nav-right {
@@ -29,6 +31,7 @@
 
 .portfolio {
   text-align: center;
+  background-color: hsl(201, 14%, 49%); /*debug*/
 }
 
 .portfolio .row :not(:first-child) {
@@ -52,5 +55,25 @@
 
 /* MAIN | CONTACT ME */
 .contact-me .row .title {
+  text-align: center;
+}
+
+/* FOOTER | INFO */
+
+.info {
+  background-color: #2c3e50; /*debug*/
+  height: 300px; /*debug*/
+}
+
+.info {
+  color: white;
+  text-align: center;
+}
+
+/* FOOTER | CREDITS */
+
+.credits {
+  background-color: #1a252f;
+  height: 50px; /*debug*/
   text-align: center;
 }
