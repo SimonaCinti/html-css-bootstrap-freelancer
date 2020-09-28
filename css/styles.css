@@ -1,0 +1,8 @@
+/* HEADER | NAV */
+.nav-top .row .left,
+.nav-top .row .right {
+  height: 50px; /*debug*/
+  color: white; /*debug*/
+  font-size: 20px; /*debug*/
+  background-color: #2c3e50;
+}
