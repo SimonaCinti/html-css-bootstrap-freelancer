@@ -19,10 +19,25 @@ body {
   padding: 16px;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+  color: #1abc9c;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #1abc9c;
+}
+
 .navbar .container-fluid a.navbar-brand,
 .navbar .navbar-right li a {
   color: white;
   font-weight: bold;
+  font-size: 20px;
 }
 /* HEADER | JUMBOTRON */
 
