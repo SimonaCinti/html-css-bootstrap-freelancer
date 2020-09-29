@@ -131,19 +131,17 @@ h2.title {
 .portfolio {
   text-align: center;
   background-color: white;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .portfolio .row .item-image {
-  height: 250px; /*debug*/
+  height: 288px;
   border-radius: 5%;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .portfolio .row .item-image img {
   border-radius: 5%;
-  max-height: 250px;
+  max-height: 288px;
 }
 
 /* MAIN | SECTION ABOUT */
