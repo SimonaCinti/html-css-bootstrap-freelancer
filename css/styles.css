@@ -15,6 +15,12 @@ h1.title {
   font-weight: bold;
 }
 
+h2.title {
+  font-size: 36px;
+  color: #334d5c;
+  font-weight: bold;
+}
+
 /* HEADER | NAV */
 .navbar {
   background-color: #2c3e50;
@@ -51,7 +57,6 @@ h1.title {
 .jumbotron {
   background-color: #1abc9c;
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .jumbotron .row {
@@ -124,13 +129,20 @@ h1.title {
 
 .portfolio {
   text-align: center;
-  background-color: hsl(201, 14%, 49%); /*debug*/
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.portfolio .row :not(:first-child) {
-  height: 150px; /*debug*/
-  background-color: hsl(202, 30%, 39%);
-  border: 1px solid black;
+.portfolio .row .item-image {
+  height: 250px; /*debug*/
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+
+.portfolio .row .item-image img {
+  border-radius: 5%;
+  height: 250px;
 }
 
 /* MAIN | SECTION ABOUT */
