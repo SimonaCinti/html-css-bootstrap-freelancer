@@ -112,6 +112,10 @@ body {
 
 @media screen and (min-width: 768px) {
   /* HEADER |Nav bar */
+
+  .navbar {
+    padding: 24px 16px;
+  }
   .navbar .container-fluid a.navbar-brand {
     font-size: 28px;
   }
