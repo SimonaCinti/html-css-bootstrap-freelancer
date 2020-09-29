@@ -107,3 +107,15 @@ body {
   height: 50px; /*debug*/
   text-align: center;
 }
+
+/* ! TABLET VERSION */
+
+@media screen and (min-width: 768px) {
+  /* HEADER |Nav bar */
+  .navbar .container-fluid a.navbar-brand {
+    font-size: 28px;
+  }
+  .navbar .navbar-right li a {
+    font-size: 16px;
+  }
+}
