@@ -51,6 +51,7 @@ h1.title {
 .jumbotron {
   background-color: #1abc9c;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .jumbotron .row {
@@ -114,6 +115,18 @@ h1.title {
   float: left;
 }
 
+/*  HEADER | JUMBOTRON | TOP-4   */
+
+.top-4 ul {
+  margin-bottom: 40px;
+}
+
+.top-4 ul li {
+  color: white;
+  font-size: 20px;
+  font-family: "Lato";
+}
+
 /* MAIN | SECTION PORTFOLIO */
 
 .portfolio {
@@ -125,7 +138,6 @@ h1.title {
   height: 150px; /*debug*/
   background-color: hsl(202, 30%, 39%);
   border: 1px solid black;
-  margin-bottom: 40px;
 }
 
 /* MAIN | SECTION ABOUT */
