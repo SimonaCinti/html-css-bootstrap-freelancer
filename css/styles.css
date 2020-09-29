@@ -64,18 +64,9 @@ h2.title {
   padding-top: 100px;
 }
 
-.jumbotron .top-2 {
-  margin-top: 50px;
-}
-
-.jumbotron .top-3,
-.jumbotron .top-4 {
-  margin-top: 25px;
-}
-
 /* HEADER | JUMBOTRON | TOP-1 */
 .jumbotron .top-1 {
-  height: 250px;
+  height: 480px;
 }
 
 .jumbotron .top-1 img {
@@ -83,16 +74,21 @@ h2.title {
   display: inline-block;
 }
 
-/* HEADER | JUMBOTRON | TOP-3 */
+.line-star {
+  height: 50px;
+  width: 400px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 .custom-line-1,
 .custom-line-2 {
-  height: 6px;
+  height: 2px;
   width: 30%;
   background: white;
   float: left;
   padding-top: 3px;
-  text-align: center;
 }
 
 .custom-line-1 {
@@ -113,13 +109,11 @@ h2.title {
   float: left;
 }
 
-/*  HEADER | JUMBOTRON | TOP-4   */
+/* .skill-list ul {
+  padding-bottom: 40px;
+} */
 
-.top-4 ul {
-  margin-bottom: 40px;
-}
-
-.top-4 ul li {
+.skill-list ul li {
   color: white;
   font-size: 20px;
   font-family: "Lato";
