@@ -133,6 +133,14 @@ h2.title {
   background-color: white;
 }
 
+.portfolio h2 {
+  margin-top: 40px;
+}
+
+.portfolio .row .line-star {
+  margin-bottom: 40px;
+}
+
 .portfolio .row .item-image {
   height: 288px;
   border-radius: 5%;
