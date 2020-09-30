@@ -15,7 +15,7 @@ h1.title {
   font-weight: bold;
 }
 
-h2.title {
+h2 {
   font-size: 36px;
   color: #334d5c;
   font-weight: bold;
@@ -191,6 +191,10 @@ h2.title {
 .about .row {
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.about .row .mission {
+  font-size: 16px;
 }
 
 /* MAIN | CONTACT ME */
