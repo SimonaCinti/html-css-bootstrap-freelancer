@@ -143,17 +143,11 @@ h2 {
 
 .portfolio .row .item-image {
   border-radius: 5%;
+  overflow: hidden;
   margin-bottom: 30px;
   position: relative;
-  max-width: 400px;
   margin: auto auto 30px;
   cursor: pointer;
-}
-
-.portfolio .row .item-image img {
-  border-radius: 5%;
-  max-height: 288px;
-  max-width: 100%;
 }
 
 .item-image .img-overlay {
@@ -163,7 +157,6 @@ h2 {
   height: 100%;
   width: 100%;
   background-color: rgba(26, 188, 156, 0.9);
-  border-radius: 5%;
   margin-bottom: 30px;
   opacity: 0;
   transition: all 0.5s ease-in-out;
