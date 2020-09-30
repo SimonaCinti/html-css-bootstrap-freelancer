@@ -27,12 +27,13 @@ h2 {
   padding: 16px 36px;
   font-size: 20px;
   margin-top: 30px;
+  border-radius: 8px;
+  border-color: transparent;
 }
 
 .btn-primary {
   background-color: #1abc9c;
   border: 2px solid white;
-  border-radius: 8px;
   transition: all 0.5s;
 }
 
@@ -40,6 +41,20 @@ h2 {
   color: black;
   background-color: white;
   border-color: white;
+}
+
+.btn-secondary {
+  background-color: #1abc9c;
+  color: white;
+  border: 2px solid;
+  border-radius: 8px;
+  transition: all 0.4s;
+}
+
+.btn-secondary:hover{
+  color: white;
+  background-color: #159a80;
+  border-color: #148f77;
 }
 
 /* Line Star Symbol */
@@ -225,7 +240,36 @@ h2 {
   text-transform: uppercase;
 }
 
-.contact-me .row h2 {
+.form-contact .form-group{
+  margin-bottom: 0;
+}
+
+.form-group input,
+.form-group textarea{
+  border:none;
+  border-bottom: 1px solid #e9ecef;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.form-group input{
+  height: 80px;
+  line-height: 80px;
+}
+
+.form-group textarea{
+  padding-top: 10px;
+  margin-top:30px;
+  height: 300px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+  outline: none;
+  box-shadow: none;
+  border-color:#2c3e50;
 }
 
 /* FOOTER | INFO */
