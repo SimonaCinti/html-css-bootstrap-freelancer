@@ -302,7 +302,8 @@ h3{
 
 .credits {
   background-color: #1a252f;
-  height: 50px; /*debug*/
+  line-height: 50px;
+  color:white;
 }
 
 /* ! TABLET VERSION */
