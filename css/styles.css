@@ -147,6 +147,7 @@ h2 {
   position: relative;
   max-width: 400px;
   margin: auto auto 30px;
+  cursor: pointer;
 }
 
 .portfolio .row .item-image img {
