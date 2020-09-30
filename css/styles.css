@@ -282,6 +282,11 @@ h3{
 
 /* FOOTER | INFO */
 
+.info .row {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .info{
   background-color: #2c3e50; 
   padding-top: 60px;
@@ -297,6 +302,18 @@ h3{
   font-size: 20px;
   margin-bottom:0;
 }
+
+.bootstrap-url {
+  color:#1dbc9c;
+  text-decoration: none;
+}
+
+.bootstrap-url:hover {
+    color: #117964;
+    text-decoration: underline;
+
+
+
 
 /* FOOTER | CREDITS */
 
