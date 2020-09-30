@@ -24,7 +24,6 @@ h2 {
 h3{
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 40px;
   margin-top: 40px;
 }
 
@@ -283,7 +282,7 @@ h3{
 /* FOOTER | INFO */
 
 .info .row {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -303,6 +302,18 @@ h3{
   margin-bottom:0;
 }
 
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-dribbble {
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 26px;
+  padding-top: 10px;
+}
+
 .bootstrap-url {
   color:#1dbc9c;
   text-decoration: none;
@@ -311,6 +322,7 @@ h3{
 .bootstrap-url:hover {
     color: #117964;
     text-decoration: underline;
+}
 
 
 
