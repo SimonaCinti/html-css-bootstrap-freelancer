@@ -21,6 +21,26 @@ h2 {
   font-weight: bold;
 }
 
+/* Buttons */
+
+.btn {
+  padding: 16px 36px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background-color: #1abc9c;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
 /* Line Star Symbol */
 
 .line-star {
@@ -107,7 +127,8 @@ h2 {
 
 .jumbotron .row {
   margin-top: 50px;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .jumbotron .top-1 img {
@@ -126,6 +147,8 @@ h2 {
 .portfolio {
   text-align: center;
   background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .portfolio h2 {
@@ -177,6 +200,8 @@ h2 {
 .about.container-fluid {
   background-color: #1abc9c;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .about .row {
@@ -185,7 +210,9 @@ h2 {
 }
 
 .about .row .mission {
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 1.6;
+  font-family: "Lato";
 }
 
 /* MAIN | CONTACT ME */
